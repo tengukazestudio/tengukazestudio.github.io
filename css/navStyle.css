@@ -94,7 +94,7 @@ nav::before {
         position: absolute;
         right: 0px;
         height: 92vh;
-        top: 11vh;
+        top: 8vh;
         background-color: white;
         display: flex;
         flex-direction: column;
