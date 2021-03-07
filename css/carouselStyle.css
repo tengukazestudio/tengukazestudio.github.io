@@ -1,6 +1,8 @@
 body {
     overflow: hidden;
 }
+
+
   
 .full-screen {
     background-size: cover;
@@ -110,6 +112,12 @@ body {
 }
 
 @media screen and (max-width: 768px){
+    body.fixed { 
+        position: fixed; 
+        height: 100%;
+        width: 100%;
+     
+    }
 
     .work-text-content {
         left: 10%;
@@ -140,6 +148,9 @@ body {
 
 
 @media screen and (max-width: 500px){
+    body {
+        overflow: hidden;
+    }
 
     .work-text-content {
         left: 11.7%;
