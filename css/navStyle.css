@@ -52,7 +52,7 @@ nav::before {
     color: black !important;
     text-decoration: none;
     letter-spacing: 3px;
-    font-weight: bold;
+    
     font-size: 14px;
     top:5px;
     cursor: pointer;
@@ -94,12 +94,13 @@ nav::before {
         position: absolute;
         right: 0px;
         height: 92vh;
+        width: 45%;
         top: 8vh;
         background-color: white;
         display: flex;
         flex-direction: column;
+       
         align-items: center;
-        width: 45%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
         opacity: 0.89;
@@ -108,8 +109,14 @@ nav::before {
 
     .nav-links li{
         opacity: 0;
+        margin-bottom: 100px;
 
     }
+
+    .first-link {
+        margin-top: 20px;
+    }
+
     .burguer{
         display: block;
     }

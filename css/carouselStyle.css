@@ -6,7 +6,19 @@ body {
   
 .full-screen {
     background-size: cover;
-    background-position: right;
+    background-position: 25% 50%;
+    background-repeat: no-repeat;
+}
+
+.full-screen2 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.full-screen3 {
+    background-size: cover;
+    background-position: 75% 50%;
     background-repeat: no-repeat;
 }
 
@@ -123,7 +135,6 @@ body {
         left: 10%;
         right: 0;
         top: 20%;
-       
         width: 80%;
         height: 100%;
         font-size: 20px;

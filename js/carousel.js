@@ -2,12 +2,7 @@ var $item = $('.carousel-item');
 var $wHeight = $(window).height();
 $item.eq(0).addClass('active');
 $item.height($wHeight); 
-$item.addClass('full-screen');
 
-function setTopo(){
-  $(window).scrollTop(0);
-}
-$(window).bind('scroll', setTopo);
 
 $('.carousel img').each(function() {
   var $src = $(this).attr('src');
