@@ -75,15 +75,14 @@ body {
     height: 100%;
     padding: 0;
     position: relative;
-    background-color: black;
-    opacity: 0;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .vividworknav:hover .black-curtain {
-    opacity: 0.45; 
+    background-color: rgba(0,0,0,0.6); 
 }
 
-.vividworknav:hover .black-curtain .work-text-content {
+.vividworknav:hover .work-text-content {
     opacity: 1; 
 
 }
@@ -104,7 +103,7 @@ body {
     top: 20%;
     position: relative;
     color: rgb(255, 255, 255);
-    -webkit-text-stroke: 0.5px black;
+
     font-size: 24px;
     text-align: left;
     opacity: 0;
