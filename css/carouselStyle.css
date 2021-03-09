@@ -2,7 +2,9 @@ body {
     overflow: hidden;
 }
 
-
+h2 {
+    font-weight: bold;
+}
   
 .full-screen {
     background-size: cover;
